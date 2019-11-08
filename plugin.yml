@@ -1,0 +1,14 @@
+name: TNT-Survival
+main: com.senpai.tntsurvival.Main
+version: 1.0
+api-version: 1.13
+commands:
+   who:
+      description: Your description
+      usage: /who
+   stnt:
+      description: Your description
+      usage: /stnt
+   tntrain:
+      description: Your description
+      usage: /tntrain
