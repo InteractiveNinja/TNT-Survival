@@ -20,7 +20,8 @@ public class stnt implements CommandExecutor {
 			
 			Iterable<? extends Player> s = Bukkit.getOnlinePlayers();
 			for (Player player : s) {
-				player.sendMessage(Main.PLUGINNAME + " TNT SPAWN!");
+				//player.sendMessage(Main.PLUGINNAME + " TNT SPAWN!");
+				player.sendTitle(Main.PLUGINNAME, "TNT SPAWN",2, 10, 2);
 				tntSpawn(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), player);
 			}
 			return true;

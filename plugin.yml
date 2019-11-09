@@ -4,11 +4,11 @@ version: 1.0
 api-version: 1.13
 commands:
    who:
-      description: Your description
+      description: Zeigt wer dieses Plugin entwickelt hat
       usage: /who
    stnt:
-      description: Your description
+      description: Spawnt TNT bei jedem Spieler auf dem Server
       usage: /stnt
    tntrain:
-      description: Your description
-      usage: /tntrain
+      description: Startet den TNT Rain
+      usage: /tntrain on/off
